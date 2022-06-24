@@ -2,6 +2,7 @@ var output = [];
 var x = 1;
 
 function fizzBuzz() {
+  while (x <= 100) {
     if (x % 3 === 0 && x % 5 === 0) {
         output.push("FizzBuzz");
     }
@@ -15,6 +16,7 @@ function fizzBuzz() {
         output.push(x);
     }
     x++;
+  }
     console.log(output);
 }
 //Just call function 'fizzBuzz();' in console
